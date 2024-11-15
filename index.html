@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+div#video_player_box{ width:465px; background:#000; margin:0px auto;}
+div#video_controls_bar{ background: #333; padding:10px;}
+</style>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="title">Doomsday - Cordae And Juice WRLD</h1>
+        <div id="video_player_box">
+  <video id="my_video" width="450px" height="345px">
+    <source src="https://d500.d2mefast.net/c.php?s=eNoBYACf%252F8S58SJUoTr8XIFBTMvp8pmWLn4tGDpq987oXxyuUEBltDKmHvBD6rthOEdwlaFTZ9LxYpAm3uYYqP1UdcvKaIg%252BvXtN9TGFqNMT8GyQ3Aov4rXrHpTTHFU6TsBHm6Z83ojHMmY%253D">
+  </video>
+  <video id="my_video2" width="450px" height="345px">
+    <source src="https://d500.d2mefast.net/c.php?s=eNoBWACn%252F7UWQTANyoSguhVaKW7LpBxqQgSIore00x6ZFm7H%252F3f2qsgIxy9BpRCrYepjTtGS688XJz2YB2WJO55lLsWRHyKYbtAIdQ4KBtFORVaR9GfU%252BDayOKMyQLf1mygN">
+  </video>
+  <div id="video_controls_bar">
+      <button id="playpausebtn" onclick="playPause(this,'my_video')">Pause</button>
+      <button id="playpausebtn2" onclick="playPause2(this,'my_video2')">Pause</button>
+      <button id="nextbutton" onclick="nextvideo()">Next Video</button>
+
+    <button id="backbutton" onclick="backbtn()">Previous Video</button>
+  </div>
+</div>
+    </div>
+
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
