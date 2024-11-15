@@ -1,0 +1,43 @@
+body{
+    
+}
+#container{
+    align-content: center;
+    border: 4px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: solid black;
+    border-spacing: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    background: yellow;
+    width: 500px;
+    height: 450px;
+    margin-top: 10px;
+}
+#title{
+    font-size: 17px; 
+    text-align: center;
+}
+#playpausebtn{
+    background: grey;
+    border-style: solid;
+    border-radius: 10px;
+}
+#nextbutton{
+    background: grey;
+    border-style: solid;
+    border-radius: 10px;
+    float: right;
+}
+#playpausebtn2{
+    background: grey;
+    border-style: solid;
+    border-radius: 10px;
+}
+#backbutton{
+    background: grey;
+    border-style: solid;
+    border-radius: 10px;
+    float: right;
+}
