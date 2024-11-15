@@ -1,2 +1,2 @@
 # musicplayer
-lol
+Credits btw Lyrical Lemonade
